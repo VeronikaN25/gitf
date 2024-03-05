@@ -85,6 +85,7 @@ fun LoginScreen() {
                     .fillMaxWidth()
             )
             Text(text="Hello World")
+            Text(text="Hi")
             Spacer(modifier = Modifier.height(16.dp))
             OutlinedTextField(value = login,
                 onValueChange = { login = it },
